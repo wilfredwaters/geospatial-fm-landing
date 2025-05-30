@@ -8,20 +8,18 @@
     body {
       margin: 0;
       padding: 0;
-      background-color: #000;
-      color: #fff;
+      background-color: #1e1e1e;
       font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
       text-align: center;
     }
+    .container {
+      padding-top: 5vh; /* Responsive vertical spacing */
+    }
     .logo {
+      display: block;
       max-width: 90%;
       height: auto;
-      margin: 60px auto 40px; /* top margin added here */    
+      margin: 0 auto 40px; /* Center and space below */
     }
     h1 {
       font-size: 3rem;
@@ -49,10 +47,11 @@
   </style>
 </head>
 <body>
-    <!-- Logo -->
-  <img src="gfmlogo.png" alt="Geospatial FM Logo" class="logo" />
-  <h1>A podcast, newsletter and analysis service for the emerging geospatial foundation model scene</h1>
-  <p>For advertising inquiries: <a href="mailto:advertise@geospatial.fm">advertise@geospatial.fm</a></p>
-  <p>For podcast appearances: <a href="mailto:appear@geospatial.fm">appear@geospatial.fm</a></p>
+  <div class="container">
+   <img src="gfmlogo.png" alt="Geospatial FM Logo" class="logo" />
+   <h1>A podcast, newsletter and analysis service for the emerging geospatial foundation model scene</h1>
+   <p>For advertising inquiries: <a href="mailto:advertise@geospatial.fm">advertise@geospatial.fm</a></p>
+   <p>For podcast appearances: <a href="mailto:appear@geospatial.fm">appear@geospatial.fm</a></p>
+  </div>
 </body>
 </html>
